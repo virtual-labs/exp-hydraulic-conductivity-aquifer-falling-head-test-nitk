@@ -2,12 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What impact does an increase in soil compaction have on permeability after conducting the falling head permeability test?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remains the same",
+        "d": "Unpredictable"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the initial moisture content of soil affect the results of the falling head permeability test?",
+      "answers": {
+        "a": "No effect",
+        "b": "Increases permeability",
+        "c": "Decreases permeability",
+        "d": "Indeterminate"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "indeterminate"
+    },
+    {
+      "question": "What role does the length of the soil sample play in determining permeability in the falling head permeability test?",
+      "answers": {
+        "a": "Direct relationship",
+        "b": "Inverse relationship",
+        "c": "No relationship",
+        "d": "Random relationship"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -16,15 +50,15 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How does the type of fluid used in the falling head permeability test influence the results?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "No influence",
+        "b": "Increases permeability",
+        "c": "Decreases permeability",
+        "d": "Alters soil structure"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -34,6 +68,108 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What precautions should be taken to ensure accurate results in the falling head permeability test?",
+      "answers": {
+        "a": "Increase test duration",
+        "b": "Ignore initial soil saturation",
+        "c": "Minimize disturbances during sample preparation",
+        "d": "Conduct the test in ambient air conditions"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "indeterminate"
+    },
+    {
+      "question": "How does the diameter of soil particles affect permeability, as observed in the falling head permeability test?",
+      "answers": {
+        "a": "No effect",
+        "b": "Direct relationship",
+        "c": "Inverse relationship",
+        "d": "Irrelevant"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the significance of conducting multiple trials in the falling head permeability test?",
+      "answers": {
+        "a": "Reduces accuracy",
+        "b": "Increases variability",
+        "c": "Ensures reliability",
+        "d": "Delays test completion"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "indeterminate"
+    },
+    {
+      "question": "In a post-test scenario, if the permeability value is higher than expected, what could be a possible reason?",
+      "answers": {
+        "a": "Increased soil compaction",
+        "b": "Enhanced sample preparation",
+        "c": "Presence of air voids",
+        "d": "Longer test duration"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the temperature of the soil sample influence permeability in the falling head permeability test?",
+      "answers": {
+        "a": "No effect",
+        "b": "Increases permeability",
+        "c": "Decreases permeability",
+        "d": " Indeterminate"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What information does the final water level in the standpipe provide after completing the falling head permeability test?",
+      "answers": {
+        "a": " No relevant information",
+        "b": "Indicates test completion",
+        "c": "Reflects soil saturation",
+        "d": "Represents test initiation"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
