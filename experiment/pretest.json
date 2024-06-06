@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a falling head permeability test?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To measure soil density",
+        "b": "To determine soil shear strength",
+        "c": "To assess soil permeability",
+        "d": "To analyze soil compaction"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +16,159 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the falling head permeability test, what property of soil is being measured?",
+      "answers": {
+        "a": "Cohesion",
+        "b": "Permeability",
+        "c": "Porosity",
+        "d": "Plasticity"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the unit of permeability typically used in the falling head permeability test?",
+      "answers": {
+        "a": "m",
+        "b": "cm/s",
+        "c": "kN/m²",
+        "d": "N"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which instrument is commonly used to conduct a falling head permeability test?",
+      "answers": {
+        "a": "Hydrometer",
+        "b": "Triaxial testing machine",
+        "c": "Permeameter",
+        "d": "Siltometer"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a falling head permeability test, what happens to the water level in the standpipe as the test progresses?",
+      "answers": {
+        "a": "Rises",
+        "b": "Falls",
+        "c": "Remains constant",
+        "d": "Fluctuates randomly"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What type of soil is likely to have a higher permeability?",
+      "answers": {
+        "a": "Clay",
+        "b": "Sand",
+        "c": "Silt",
+        "d": "Loam"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the relationship between particle size and permeability in soils?",
+      "answers": {
+        "a": "Inverse",
+        "b": "Direct",
+        "c": "No correlation",
+        "d": "Random"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is it important to saturate the soil sample before conducting the falling head permeability test?",
+      "answers": {
+        "a": "To increase soil density",
+        "b": "To eliminate air voids",
+        "c": "To reduce soil porosity",
+        "d": "To enhance soil plasticity"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the governing principle behind the falling head permeability test?",
+      "answers": {
+        "a": "Darcy's Law",
+        "b": "Boyle's Law",
+        "c": "Archimedes' Principle",
+        "d": "Pascal's Law"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In a falling head permeability test, if the water level drops rapidly, what does it indicate about the soil permeability?",
+      "answers": {
+        "a": " High permeability",
+        "b": "Low permeability",
+        "c": "No correlation",
+        "d": "Saturation"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
