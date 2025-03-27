@@ -23,7 +23,7 @@
 8. Click on the pipe to connect the water pipe from the overhead tank to the bottom outlet pipe of the permeameter and also open the air release valve.
     ![Alt text](./images/img18.PNG)
 
-9.  Click on the valve to fill water inside the permeameter and all the air voids also will get escaped through the air release valve. Once water starts to flow through the air release valve, stop the water supply and close the air release valve.
+9.  Click on the valve to fill water inside the permeameter and all the air voids also will get escaped through the air release valve. Once water starts to flow through the air release valve, stop the water supply and close the air release valve.</br>
     ![Alt text](./images/img21.PNG)
 
 10. Select the diameter of the pipe.
@@ -36,4 +36,4 @@
     ![Alt text](./images/img29.PNG)
 
 13. Calculate the Coefficient of permeability, K by using the given formula.
-    ![Alt text](./images/img30.png)
+    ![Alt text](./images/img30.PNG)
