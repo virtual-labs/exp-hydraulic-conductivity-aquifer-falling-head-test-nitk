@@ -16,9 +16,9 @@
 Contributors :
 <ul style="list-style-type: none;">
 <li>Prajna K | NITK</li>
-<li>Anusha B Salian | NITK</li>
 <li>Ashika Pai | NITK</li>
 <li>Akshaya | NITK</li>
+<li>Anusha B Salian | NITK</li>
   </ul></td>
 </tr>
 </table>
