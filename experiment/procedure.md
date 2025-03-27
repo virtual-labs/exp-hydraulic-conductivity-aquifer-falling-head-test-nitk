@@ -26,7 +26,7 @@
 9.  Click on the valve to fill water inside the permeameter and all the air voids also will get escaped through the air release valve. Once water starts to flow through the air release valve, stop the water supply and close the air release valve.</br>
     ![Alt text](./images/img21.PNG)
 
-10. Select the diameter of the pipe.</br>
+10. Select the diameter of the pipe.</br></br></br>
     ![Alt text](./images/img25.PNG)
 
 11. Click on the hand with water to fill water in the standpipe and then click on the valve to allow waterflow through the pipe.</br>
