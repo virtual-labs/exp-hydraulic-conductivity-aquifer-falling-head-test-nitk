@@ -68,7 +68,7 @@ Formula to calculate permeability in constant head permeability test
 </center>
 
 <center>
- <img src="./images/img31.png"/>
+ <img src="./images/img31.PNG"/>
 </center>
 
 k	= Coefficient of permeability 
