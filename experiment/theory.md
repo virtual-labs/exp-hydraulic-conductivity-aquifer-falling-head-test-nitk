@@ -1,7 +1,7 @@
 ### Theory :
 <div style=" font-style:verdana;">
 
-### Darcy’s Law:
+#### Darcy’s Law:
 
  Darcy showed experimentally that the rate of flow of water flowing through a soil medium of unit cross sectional area is directly proportional to the imposed hydraulic gradient.
 
@@ -55,7 +55,7 @@ In this experiment, a stand pipe is connected to the permeameter which supplies 
 
 </center>
 
-### Falling Head Permeability
+#### Falling Head Permeability
 
 Falling head permeability test is a common laboratory testing method to find out the permeability of fine grained soils like silt and clay with little or no granular content. 
 
@@ -68,7 +68,7 @@ Formula to calculate permeability in constant head permeability test
 </center>
 
 <center>
- <img src="./images/img31.png"/>
+ <img src="./images/img31.PNG"/>
 </center>
 
 k	= Coefficient of permeability 
