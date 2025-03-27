@@ -20,7 +20,7 @@
 7. Click on the top plate to place it above the mould and then click on the nut to make the permeameter completely leak proof.
     ![Alt text](./images/img15.PNG)
 
-8. Click on the pipe to connect the water pipe from the overhead tank to the bottom outlet pipe of the permeameter and also open the air release valve.</br></br>
+8. Click on the pipe to connect the water pipe from the overhead tank to the bottom outlet pipe of the permeameter and also open the air release valve.</br>
     ![Alt text](./images/img18.PNG)
 
 9.  Click on the valve to fill water inside the permeameter and all the air voids also will get escaped through the air release valve. Once water starts to flow through the air release valve, stop the water supply and close the air release valve.</br>
