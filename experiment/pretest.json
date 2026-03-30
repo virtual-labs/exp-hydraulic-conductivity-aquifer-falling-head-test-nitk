@@ -10,10 +10,10 @@
         "d": "To analyze soil compaction"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Soil density is measured using density tests (e.g., core cutter, sand replacement).",
+        "b": "Soil shear strength  is determined using tests like direct shear or triaxial test.",
+        "c": "A falling head permeability test is used to determine how easily water can flow through fine-grained soils (like silts and clays). In this test, water is allowed to flow through a soil sample, and the decrease (fall) in water head over time is measured. From this, the coefficient of permeability (hydraulic conductivity) is calculated.",
+        "d": "Soil compaction is evaluated using Proctor compaction test."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "Plasticity"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Cohesion relates to soil's shear strength, not flow of water.",
+        "b": "In the falling head permeability test, the main property being measured is the permeability (also called hydraulic conductivity) of soil. The test observes how quickly water flows through a soil sample as the water head decreases over time. This rate of flow directly indicates how easily water can pass through the soil pores.",
+        "c": "Porosity refers to the volume of voids, but not directly measured in this test.",
+        "d": " Plasticity indicates soil’s ability to change shape, measured by Atterberg limits."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "N"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "m : unit of length, not flow rate",
+        "b": "The unit of permeability (hydraulic conductivity) represents the rate at which water flows through soil. It is expressed as a velocity, i.e., length per time. Common units are cm/s (most commonly used in laboratory tests like the falling head test) and m/s (SI unit)",
+        "c": "kN/m² : unit of pressure or stress",
+        "d": "N : unit of force"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "Siltometer"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Hydrometer is used for particle size analysis of fine soils",
+        "b": "Triaxial testing machine is used to determine shear strength of soil",
+        "c": "A falling head permeability test is conducted using a permeameter, which is specifically designed to measure the permeability (hydraulic conductivity) of soils. The permeameter setup includes a standpipe connected to a soil sample and Water flows through the sample, and the drop in head (water level) over time is recorded to calculate permeability.",
+        "d": "Siltometer is not a standard instrument for permeability testing"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -78,10 +78,10 @@
         "d": "Fluctuates randomly"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Rises : incorrect, because water is not being added during the test",
+        "b": "In a falling head permeability test, water is allowed to flow through the soil sample from a standpipe. As water flows through the soil, the water level (head) in the standpipe gradually decreases with time. This drop in water level is measured at different time intervals to calculate the permeability of the soil.",
+        "c": "Remains constant : this applies to a constant head test, not falling head",
+        "d": "Fluctuates randomly : the decrease is systematic and measurable, not random"
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -95,10 +95,10 @@
         "d": "Loam"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Clay has very fine particles and tiny pores, so it has very low permeability.",
+        "b": "Permeability depends on the size of soil particles and the void spaces between them. Sand has large particles and large pore spaces, allowing water to flow easily, so sand has high permeability.",
+        "c": "Silt has intermediate particle size, so it has moderate to low permeability.",
+        "d": "Loam is a mixture of sand, silt, and clay, so it has moderate permeability."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -112,10 +112,10 @@
         "d": "Random"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " Inverse → incorrect, because permeability does not decrease with particle size",
+        "b": "In soils, permeability increases with particle size, meaning there is a direct relationship. Larger particles (e.g., sand, gravel) → larger voids → water flows easily → high permeability. Smaller particles (e.g., clay) → tiny pores → water flow is restricted → low permeability",
+        "c": "No correlation → incorrect, there is a clear relationship",
+        "d": "Random → incorrect, the relationship is systematic and predictable"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -129,10 +129,10 @@
         "d": "To enhance soil plasticity"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " To increase soil density → saturation does not significantly change density",
+        "b": "Before conducting a falling head permeability test, the soil sample must be fully saturated to ensure accurate results. If air is present in the voids, it blocks water flow and gives incorrect (usually lower) permeability values. Saturation ensures that all pores are filled with water, so the measured flow truly represents the soil's permeability.",
+        "c": "To reduce soil porosity → porosity remains the same; only the voids are filled with water",
+        "d": "To enhance soil plasticity → plasticity is unrelated to permeability testing"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -146,10 +146,10 @@
         "d": "Pascal's Law"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The falling head permeability test is based on Darcy's Law, which describes the flow of water through a porous medium like soil. According to Darcy’s Law, the rate of flow is proportional to the hydraulic gradient (difference in head). In the falling head test, as the water level drops, the head changes with time, and this variation is used to calculate permeability.",
+        "b": "Boyle's Law → relates pressure and volume of gases",
+        "c": "Archimedes' Principle → deals with buoyancy of objects in fluids",
+        "d": "Pascal's Law → relates to pressure transmission in fluids"
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -163,10 +163,10 @@
         "d": "Saturation"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "In a falling head permeability test, the rate at which the water level drops in the standpipe reflects how easily water flows through the soil. If the water level drops rapidly, it means water is passing through the soil very quickly. This indicates that the soil has large pore spaces and offers less resistance to flow → high permeability.",
+        "b": "Low permeability → would cause a slow drop in water level",
+        "c": "No correlation → incorrect, the rate of fall is directly related to permeability",
+        "d": "Saturation → saturation is a test condition, not an indicator of permeability"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"

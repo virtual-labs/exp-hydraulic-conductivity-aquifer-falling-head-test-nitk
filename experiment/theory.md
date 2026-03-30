@@ -1,45 +1,40 @@
-### Theory :
-<div style=" font-style:verdana;">
+### INTRODUCTION
 
-#### Darcy’s Law:
+#### Darcy's Law
 
- Darcy showed experimentally that the rate of flow of water flowing through a soil medium of unit cross sectional area is directly proportional to the imposed hydraulic gradient.
+<p style="text-indent:50px; text-align: justify;">Darcy experimentally demonstrated that the rate of flow of water through a soil medium per unit cross-sectional area is directly proportional to the applied hydraulic gradient.</p>
 
-q	= Rate of flow of water    
-A	= Cross sectional area of soil    
-i	= Hydraulic gradient   
-
-
-Therefore, the rate of flow of water divided by cross sectional area is directly proportional to hydraulic gradient.
+<p style="text-indent:50px; text-align: justify;">Thus, the discharge per unit area is proportional to the hydraulic gradient, and can be expressed as:</p>
 
 <center>
  <img src="./images/eq1.png"/>
 </center>
 
-To take out the proportionality from the equation, a constant is inserted into the equation which is called ‘Darcy’s coefficient of permeability’ or ‘coefficient of permeability’ or ‘ permeability’. 
+Where,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q = Rate of flow of water</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A = Cross-sectional area of the soil</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = Hydraulic gradient
+
+<p style="text-indent:50px; text-align: justify;">To eliminate the proportionality in the equation, a constant is introduced, known as Darcy's coefficient of permeability, also referred to as the coefficient of permeability or simply permeability.</p>
 
 
   <center>q = kiA</center>
 
-  Therefore permeability can be defined as the property of soil which indicates the ease through which the water will flow / percolate through the continuously linked pore spaces of the soil.
+<p style="text-indent:50px; text-align: justify;">Permeability may be defined as the property of soil that indicates the ease with which water can flow or percolate through the continuously interconnected pore spaces of the soil. It can also be expressed as the ratio of the rate of flow of water to the product of the cross-sectional area and the hydraulic gradient.</p>
 
-  Permeability can also be defined as the ratio between rate of flow of water to that of the product of cross sectional area and hydraulic gradient.
-
-  <center>
+<center>
  <img src="./images/eq2.png"/>
 </center>
 
-The major factors on which permeability depends are the grain size of the soil particles, the properties of the pore fluid, the void ratio of soil, the shapes and arrangement of pores and the degree of saturation.
+<p style="text-indent:50px; text-align: justify;">The permeability of soil depends on several factors, including the grain size of soil particles, the properties of the pore fluid, the void ratio of the soil, the shape and arrangement of the pores, and the degree of saturation.</p>
 
-In laboratory, permeability of soil is found by any of the following two experiments:
+<p style=" text-align: justify;">In the laboratory, the permeability of soil is determined using either of the following two methods:</p>
 
-Constant head permeability
+##### Constant Head Permeability Test
+<p style="text-indent:50px; text-align: justify;">In this method, a constant water head is maintained in an overhead tank to ensure that the pressure remains uniform throughout the experiment. This test is generally conducted for coarse-grained soils, where the permeability is relatively high.</p>
 
-In this experiment, a constant head of water is maintained in the overhead tank so that the pressure of water remains constant at all times. This experiment is usually carried out for coarse grained soils where the permeability of the soils are higher.
-
-Variable head permeability
-
-In this experiment, a stand pipe is connected to the permeameter which supplies the water. This experiment is usually carried out for fine grained soils or cohesive soils where the permeability of water is very low.
+##### Variable Head Permeability Test
+<p style="text-indent:50px; text-align: justify;">In this method, a standpipe is connected to the permeameter to supply water. The head of water varies with time, and the test is typically used for fine-grained or cohesive soils, where the permeability is very low.</p>
 
 <center>
 
@@ -56,25 +51,20 @@ In this experiment, a stand pipe is connected to the permeameter which supplies 
 </center>
 
 #### Falling Head Permeability
+<p style="text-indent:50px; text-align: justify;">The falling head permeability test is a commonly used laboratory method for determining the permeability of fine-grained soils such as silt and clay, which contain little or no granular material.</p>
 
-Falling head permeability test is a common laboratory testing method to find out the permeability of fine grained soils like silt and clay with little or no granular content. 
+<center> <img src="./images/img31.PNG"/> </center>
 
-In this method the time taken by the soil sample to percolate a fixed length of water in the stand pipe is calculated. 
+<p style="text-indent:50px; text-align: justify;">In this method, the time required for the water level in the standpipe to fall through a specified length is measured as water percolates through the soil sample.</p>
 
-Formula to calculate permeability in constant head permeability test 
+<p style="text-align: justify;">The coefficient of permeability is calculated using the following expression:</p>
 
- <center>
- <img src="./images/eq3.png"/>
-</center>
+<center> <img src="./images/eq3.png"/> </center>
 
-<center>
- <img src="./images/img31.PNG"/>
-</center>
+Where,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k = Coefficient of permeability</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q = Total quantity of water collected in time t</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l = Length of the soil sample</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t = Duration of water collection</br>
 
-k	= Coefficient of permeability 
-
-Q	= Total quantity of water collected in time t 
-
-l	= Length of the sample 
-
-t	= Duration of water collected
+This method is particularly suitable for soils with low permeability.
