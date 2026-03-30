@@ -41,6 +41,24 @@ const dataset=[["T1",100,90,	24],
 			   [60,	40,	45, "T3"]];
 //Calculation
 
+const mouldArea=(Math.PI*(Math.pow(mouldDia, 2))/4);
+const mouldVolume=mouldArea*mouldHeight;
+let totalOfQ=0, avgOfQ=0;//Average of volume of water collected in measuring jar
+for(i=0;i<dataset.length;i++)
+	totalOfQ+=dataset[i][1];
+avgOfQ=totalOfQ/dataset.length;
+
+const coefficient=(avgOfQ*mouldHeight)/(mouldArea*dataset[0][0]*constHead)*1000;
+
+// Formative questions
+var questions=["The filter paper is placed inside the permeameter so that soil particles do not clog the pores present in the porous stones.",
+			   "The number of blows to be given for each soil layer is _____.",
+			   "What is the diameter of the stand pipe?"];
+			   
+var options2=[["True","False"],//True
+			  ["6","7","5","3"],//5
+			  ["1cm","2cm"]];//67.5cm
+
 function myStopFunction1() {
 	// console.log("arrow2");
 	clearInterval(myInt1);
@@ -59,14 +77,6 @@ else
 
 
 
-
-
-
-
-
-
-
-
 function hideNextButton(){
 	nextButton.classList.add('hidden');
 	// document.querySelector(".nextButton").style.visibility="hidden";
@@ -77,24 +87,6 @@ function displayNextButton()
 	// nextButton.classList.remove('hidden');
 	document.querySelector(".nextButton").style.visibility="visible";
 }
-
-const mouldArea=Math.PI*(Math.pow(mouldDia, 2))/4*10;
-const mouldVolume=mouldArea*mouldHeight;
-let totalOfQ=0, avgOfQ=0;//Average of volume of water collected in measuring jar
-for(i=0;i<dataset.length;i++)
-	totalOfQ+=dataset[i][1];
-avgOfQ=totalOfQ/dataset.length;
-
-const coefficient=(avgOfQ*mouldHeight)/(mouldArea*dataset[0][0]*constHead)*1000;
-
-// Formative questions
-var questions=["The filter paper is placed inside the permeameter so that soil particles do not clog the pores present in the porous stones.",
-			   "The number of blows to be given for each soil layer is _____.",
-			   "What is the diameter of the stand pipe?"];
-			   
-var options2=[["True","False"],//True
-			  ["6","7","5","3"],//5
-			  ["1cm","2cm"]];//67.5cm
 
 // font-size:14px; background-color:grey; color:white; padding:7.5px; border-radius:5px; :::: formativeQuestDiv
 function validateFormativeQA(qn,ans,left,top)
