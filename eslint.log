@@ -1,0 +1,63 @@
+
+/home/runner/work/exp-hydraulic-conductivity-aquifer-falling-head-test-nitk/exp-hydraulic-conductivity-aquifer-falling-head-test-nitk/experiment/simulation/js/const.js
+  147:10  error  Parsing error: Identifier 'create_totalTable' has already been declared
+
+/home/runner/work/exp-hydraulic-conductivity-aquifer-falling-head-test-nitk/exp-hydraulic-conductivity-aquifer-falling-head-test-nitk/experiment/simulation/js/jquerymin.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:863    warning  'b' is assigned a value but never used                                     no-unused-vars
+  2:3050   warning  'r' is assigned a value but never used                                     no-unused-vars
+  2:5376   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:5847   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6101   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6532   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6758   warning  Empty block statement                                                      no-empty
+  2:7320   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9378   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9688   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11489  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12064  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12102  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12520  warning  Empty block statement                                                      no-empty
+  2:13134  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13446  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15271  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15542  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15740  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16114  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16815  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19155  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19255  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19315  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20674  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21288  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21399  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23719  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:33344  warning  Empty block statement                                                      no-empty
+  2:37050  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:38265  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:38405  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:39039  warning  Empty block statement                                                      no-empty
+  2:45778  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:48087  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:49647  warning  Empty block statement                                                      no-empty
+  2:57298  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:59847  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64132  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65877  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65943  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66247  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66313  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66720  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66997  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:72432  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74924  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75645  warning  'l.href' is assigned to itself                                             no-self-assign
+  2:79204  warning  Empty block statement                                                      no-empty
+  2:83243  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:83243  warning  'l' is assigned a value but never used                                     no-unused-vars
+  2:86651  warning  'define' is not defined                                                    no-undef
+  2:86663  warning  'define' is not defined                                                    no-undef
+
+✖ 56 problems (1 error, 55 warnings)
+
