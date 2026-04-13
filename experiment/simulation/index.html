@@ -1,13 +1,617 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<meta charset="UTF-8">
+<title>SOLVE</title>
+<link rel="stylesheet" href="css/const.css" />
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+</head>
+<!-- Determination of Coefficient of Permeability of soils by Constant Head Permeability test -->
+<body>
+<div class="simscreen">
+<div class="title"><h2>HYDRAULIC CONDUCTIVITY OF AQUIFER BY FALLING HEAD</h2></div>
+
+<div class="simsubscreen canvas0" >
+	<h4 class="incanvas ">Objective:</h4>
+	<p class="incanvas lineHeight">To determine coefficient of permeability of given soil sample by falling head permeability test.</p><br/>
+	<h4 class="incanvas">Apparatus used:</h4>
+	<p class="incanvas lineHeight">Permeameter, filter paper, porous stones, water tank, stand pipe, timer, beakers, graduated measuring cylinder, connecting water pipes.</p>
+	 <img class="human" title = "" src="images/human.png" />
+	<img class="full-setup" title = "Permeameter setup" src="images/full1.png" />
+
+	<span class="tooltip description-tooltip">
+		<strong class="tooltip-heading">Description</strong>
+		<span class="tooltiptext description-tooltiptext"><strong>Permeability</strong> is the property of soil which allows the water to percolate through its continuously connected voids.</br>
+		<strong>Coefficient of permeability</strong> is equal to the rate of flow of water through unit cross sectional area under unit hydraulic gradient.
+	</span>
+	</span>
+</div>
+
+<div class="simsubscreen canvas1 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;1&nbsp;</span>
+	<p class="steptext">&nbsp; Measure the inner diameter and height of the mould, then calculate the volume of the mould.<p>
+	<table class="area-vol-table">
+		<tr class="area-table">
+			<td>Area of mould, A </td>
+			<td>
+				 = &nbsp;&nbsp; &pi; &times; <span class="frac"><sup>d<sup>2</sup></sup><span>&frasl;</span><sub>4</sub></span>&nbsp;&nbsp;
+			 =</td>
+			<td><input class="area" /></td>
+			<td>cm<sup>2</sup></td>
+			<td><span class="mark1"></span></td>
+			<td><button class="btn check1" >Check</button></td>
+			<td><button class="btn result1">Result</button></td>
+		</tr>
+		<tr class="vol-table">
+			<td>Volume of mould, V </td>
+			<td>= &nbsp;&nbsp; A &times; L  &nbsp;&nbsp;&nbsp; =</td>
+			<td><input class="vol" /></td>
+			<td>cm<sup>3</sup></td>
+			<td><span class="mark2"></span></td>
+			<td><button class="btn check2" >Check</button></td>
+			<td><button class="btn result2">Result</button></td>
+		</tr>
+	</table>
+	<img class="mould1-1" alt="Mould" title="Mould" src="images/mould.png"/>
+	<img class="scale scale1-1" alt="Scale" title="Scale" src="images/scale1.png"/>
+	<p class="data1-1"></p>
+	<p class="data1-2"></p>
+
+</div>
+
+<div class="simsubscreen canvas2 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;2&nbsp;</span>
+	<p class="steptext">&nbsp; Place the sealing gasket and the porous stone inside the groove of the baseplate.<p>
+	<img class="setup2-1" alt="Setup" title="Base plate" src="images/setup1.png" />
+
+	<img class="setup2-5" alt="stand" title="Porous Stone" src="images/porous_stone.png" />
+	<img class="setup2-6" alt="stand" src="images/porous_stone_with_hand.png" />
+
+	<img class="setup2-2" alt="Setup" title="Sealing Gasket with Hand" src="images/sealing_gasket_with_hand.png" />
+	<div class="setup2-3" title="Sealing Gasket"></div>
+	<img class="setup2-4" alt="stand" src="images/stand.png" />
+</div>
+
+<div class="simsubscreen canvas3 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;3&nbsp;</span>
+	<p class="steptext">&nbsp; Fix the mould on the base plate. Using the nut and bolt mechanism completely fasten the bolts to make the permeameter completely leak proof and then place a filter paper inside the mould.<p>
+	<img class="setup3-1" alt="Setup" title="Base plate" src="images/setup1.png" />
+	<img class="setup3-3" alt="stand" title="Porous Stone" src="images/porous_stone.png" />
+	<div class="setup3-2" title="Sealing Gasket"></div>
+	<img class="setup3-5" alt="Mould" src="images/full_mould.png" />
+	<img class="setup3-7" alt="Mould with hand" src="images/mould_with_hand.png" />
+	<img class="setup3-12" alt="Filter Paper Box" src="images/filterpaperbox.png" />
+	<img class="setup3-13" alt="Filter Paper" src="images/filter_paper_with_hand.png" />
+	<img class="setup3-4right" alt="stand" src="images/stand.png" />
+	<img class="setup3-4left" alt="stand" src="images/stand2.png" />
+	<img class="setup3-6" alt="Mould" src="images/half_mould.png" />
+	<img class="setup3-8" alt="nut" src="images/nut.png" />
+	<img class="setup3-9" alt="nut" src="images/screw_driver.png" />
+	<img class="setup3-10" alt="nut" src="images/nut_head.png" />
+	<img class="setup3-11" alt="nut" src="images/nut_head.png" />
+</div>
+
+<div class="simsubscreen canvas4 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;4&nbsp;</span>
+	<p class="steptext">&nbsp; Pour the soil sample into the mould in 3 layers with 5 blows to each layer.<p>
+	<img class="setup4-1" alt="Setup" title="Base plate" src="images/setup1.png" />
+	<img class="setup4-2" alt="Mould" src="images/full_mould.png" />
+	<div class="setup4-14"></div>
+	<img class="setup4-3right" alt="stand" src="images/stand.png" />
+	<img class="setup4-3left" alt="stand" src="images/stand2.png" />
+	<img class="setup4-4" alt="Mould" src="images/half_mould.png" />
+	<img class="setup4-5" alt="nut" src="images/nut_head.png" />
+	<img class="setup4-6" alt="nut" src="images/nut_head.png" />
+
+	<img class="setup4-10" alt="soil" src="images/ws3.png" />
+	<img class="setup4-9" alt="soil" src="images/ws2.png" />
+	<img class="setup4-8" alt="soil" src="images/ws.png" />
+	<img class="setup4-7" alt="plate" src="images/plate.png" />
+	<img class="setup4-11" alt="plate" src="images/trowel.png" />
+	<img class="setup4-11a" alt="plate" src="images/trowel.png" />
+	<img class="setup4-11b" alt="plate" src="images/trowel.png" />
+	<img class="setup4-12" alt="plate" src="images/trowels.png" />
+	<img class="setup4-13" alt="plate" src="images/tamping_rod.png" />
+
+	<img class="setup4-2b" alt="Mould" src="images/mould_tamp.png" />
+</div>
+
+<div class="simsubscreen canvas5 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;5&nbsp;</span>
+	<p class="steptext">&nbsp; Place a filter paper on top of the soil and then place a porous stone on top of it.<p>
+	<img class="setup5-1" alt="Setup" title="Base plate" src="images/setup1.png" />
+	<img class="setup5-2" alt="Mould" src="images/full_mould.png" />
+	<div class="setup5-7"></div>
+
+	<img class="setup5-10" alt="stand" title="Porous Stone" src="images/porous_stone.png" />
+	<img class="setup5-11" alt="stand" src="images/porous_stone_with_hand.png" />
+
+	<img class="setup5-8" alt="Filter Paper Box" src="images/filterpaperbox.png" />
+	<img class="setup5-9" alt="Filter Paper" src="images/filter_paper_with_hand.png" />
+
+	<img class="setup5-3right" alt="stand" src="images/stand.png" />
+	<img class="setup5-3left" alt="stand" src="images/stand2.png" />
+	<img class="setup5-4" alt="Mould" src="images/half_mould.png" />
+	<img class="setup5-5" alt="nut" src="images/nut_head.png" />
+	<img class="setup5-6" alt="nut" src="images/nut_head.png" />
+</div>
+
+<div class="simsubscreen canvas6 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;6&nbsp;</span>
+	<p class="steptext">&nbsp; Insert the sealing gasket into the top plate and place it above the mould. Then using the nut and screw mechanism completely fasten the bolts to make the permeameter completely leak proof.<p>
+	<img class="setup6-11" alt="nut" src="images/behind.png" />
+
+	<img class="setup6-1" alt="Setup" title="Base plate" src="images/setup1.png" />
+	<img class="setup6-2" alt="Mould" src="images/full_mould.png" />
+	<img class="setup6-7" alt="stand" title="Porous Stone" src="images/porous_stone.png" />
+
+	<img class="setup6-8" alt="stand" title="Top Plate" src="images/top_plate.png" />
+
+	<img class="setup6-3right" alt="stand" src="images/stand.png" />
+	<img class="setup6-13" alt="stand" src="images/screw_driver.png" />
+	<img class="setup6-3left" alt="stand" src="images/stand2.png" />
+	<img class="setup6-4" alt="Mould" src="images/half_mould.png" />
+	<img class="setup6-5" alt="nut" src="images/nut_head.png" />
+	<img class="setup6-6" alt="nut" src="images/nut_head.png" />
+	<img class="setup6-9" alt="nut" src="images/left.png" />
+	<img class="setup6-10" alt="nut" src="images/right.png" />
+
+	<img class="setup6-12" alt="nut" src="images/bolt.png" />
+	<img class="setup6-14" alt="nut" src="images/bolt2.png" />
+	<img class="setup6-15" alt="nut" src="images/bolt2.png" />
+	<img class="setup6-16" alt="nut" src="images/bolt2.png" />
+</div>
+<div class="simsubscreen canvas7 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;7&nbsp;</span>
+	<p class="steptext">&nbsp; Now connect the water pipe from the overhead tank to the bottom outlet pipe of the permeameter and also open the air release valve.</p>
+	<img class="setup7-1" alt="Overhead tank" title="Overhead tank" src="images/over_head_tank.png"/>
+	<img class="setup7-2" alt="Overhead tank" title="Zoomed view of Permeameter" src="images/permeameter.png"/>
+	<img class="setup7-3" alt="Overhead tank" title="" src="images/outer-pipe.png"/>
+	<img class="setup7-4" alt="Overhead tank" title="Hand" src="images/hand.png"/>
+	<div class="setup7-5"></div>
+	<div class="setup7-6"></div>
+</div>
+
+<div class="simsubscreen canvas8 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;8&nbsp;</span>
+	<p class="steptext">&nbsp;  Allow the water to fill inside the permeameter and all the air voids also will get escaped through the air release valve. Once water starts to flow through the air release valve, stop the water supply and close the air release valve.</p>
+	<img class="setup8-6" alt="water" title="" src="images/water.png"/>
+	<img class="setup8-1" alt="Overhead tank" title="Overhead tank" src="images/over_head_tank.png"/>
+	<img class="setup8-2" alt="Permeameter" title="Permeameter" src="images/permeameter.png"/>
+	<img class="setup8-7" alt="" title="" src="images/water2.png"/>
+	<img class="setup8-3" alt="Pipe connected to outer inlet valve" title="Pipe connected to outer inlet valve" src="images/outer-pipe.png"/>
+	<div class="setup8-4"></div>
+	<img class="setup8-5 setup8-5a" alt="" title="" src="images/valve.png"/>
+	<img class="setup8-5 setup8-5b" alt="" title="" src="images/valve.png"/>
+	<img class="setup8-8" alt="" title="" src="images/water3.png"/>
+	<div class="setup8-9"></div>
+</div>
+<div class="simsubscreen canvas9 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;9&nbsp;</span>
+	
+	<p id="pumptext" class="steptext" style="font-family:verdana; font-size:14px;">Select the diameter of the pipe</p>
+	<br>
+	<span style="position: absolute; top:150px; left: 100px">
+	<input type="radio" id="selectp3" name="sampletype" value="1">
+	<label  for="selectp3">1 cm</label>
+	</span>
+	<span style="position: absolute; top:150px; left: 420px">
+	<input type="radio" id="selectp12" name="sampletype" value="2">
+	<label  for="selectp12">2 cm</label>
+	</span>
+	<!-- <img  src="images/sandsoil.png" title="Sandy soil" height="50px" style="position: absolute; top:189px; left:95px;width: 100px;
+	height: 60px; " />
+	<img  src="images/siltsoil.png" title="Silty soil" height="50px" style="position: absolute; top: 189px;
+	left: 442px;
+	width: 100px;
+	height: 60px; " /> -->
+</div>
+
+
+
+
+<div class="simsubscreen canvas10 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;10&nbsp;</span>
+	<p class="steptext">&nbsp; Fill the water in the standpipe and connect the water pipe to the inlet of the permeameter.</p>
+	<!-- <img class="setup9-3" alt="water" title="" src="images/water.png"/> -->
+	<div id="grad3" style="position: absolute; left: 226px; top:346px; text-align:left;  width:180px;color:#888888; visibility: hidden; rotate: 90deg;"></div>
+        <div id="grad2" style="position: absolute; top:418px; text-align:left; left: 276px; width:182px;color:#888888; visibility: hidden; rotate: 90deg;"></div>
+        <div id="grad4" style="position: absolute; top:83px; text-align:left; left: 355px; width:6px; border-radius: 10px;color:#888888; visibility: hidden; "></div>
+		<div id="grad41" style="position: absolute; top: 83px;
+		text-align: left;
+		left: 329px;
+		width: 3px; border-radius: 10px;color:#888888; visibility: hidden; "></div>
+	<img class="setup9-1" alt="Stand pipe" title="Overhead tank" src="images/base2.png"/>
+	<img
+      id="9-1-3"
+        style="
+          position: absolute;
+          left: 538px;
+          top: 148px;
+          max-width: 13%;
+          width: 100%;
+          rotate: 83deg;
+          visibility: hidden;
+        "
+        src="./images/hyWithColor.png"
+       
+      />
+      <img
+      id="9-1-4"
+        style="
+          position: absolute;
+		  left: 333px;
+    top: 38px;
+		width: 50px;
+		rotate: -14deg;
+          max-width: 13%;
+          
+          visibility: hidden;
+        "
+        src="./images/hy1.1.png"
+       
+      />
+	  <img
+      id="9-1-41"
+        style="
+          position: absolute;
+		  left: 359px;
+    top: 38px;
+		width: 50px;
+		rotate: -14deg;
+          max-width: 13%;
+          
+          visibility: hidden;
+        "
+        src="./images/hy1.1.png"
+       
+      />
+	<img class="setup9-2" alt="Permeameter" title="Permeameter" src="images/permeameter.png"/>
+	<img class="setup9-4 setup9-4a" alt="Inner pipe" title="" src="images/inner_pipe.png"/>
+	<img class="setup9-41 setup9-41a" alt="Inner pipe" title="" src="images/inner_pipe.png"/>
+	<img class="setup9-4 setup9-4b" alt="Inner pipe with water" title="" src="images/inner_pipe_with_water.png"/>
+	<img class="setup9-42 setup9-42b" alt="Inner pipe with water" title="" src="images/inner_pipe_with_water.png"/>
+
+	<img class="setup9-5" alt="" title="" src="images/valve.png"/>
+	<img class="setup9-51" alt="" title="" src="images/valve.png"/>
+	<img class="setup9-6" alt="" title="" src="images/const_head1.png"/>
+</div>
+
+<div class="simsubscreen canvas11 hidden">
+	<strong class="incanvas">STEP</strong>
+	<span class="circlebg">&nbsp;11&nbsp;</span>
+	<p class="steptext">&nbsp; Allow the water to flow through the pipe, and note down the time taken for the water level to reduce by a fixed length and repeat the process for 3 trials.</p>
+	<!-- <img class="setup10-3" alt="water" title="" src="images/water.png"/> -->
+	<img class="setup10-1" alt="Stand pipe" title="Stand pipe" src="images/base2.png"/>
+	<img class="setup10-2" alt="Permeameter" title="Permeameter" src="images/permeameter.png"/>
+	<img class="setup10-4" alt="Inner pipe with water" title="" src="images/inner_pipe_with_water.png"/>
+	<img class="setup10-41" alt="Inner pipe with water" title="" src="images/inner_pipe_with_water.png"/>
+	<div class="drop10 drop10-1"></div>
+	<div class="drop10 drop10-2"></div>
+	<div class="setup10-6"></div>
+	<img class="setup10-5" alt="Measuring Jar" title="Measuring Jar" src="images/beaker.png"/>
+	<img class="setup10-7" alt="Clock" title="" src="images/clock.png"/>
+	<img class="setup10-8" alt="Needle" title="" src="images/needle.png"/>
+
+	<table class="table10" id="table10"style="position:absolute; visibility: hidden; font-size:12px; text-align:center;padding: 2px;    width: 277px;
+    top: 88px;
+    left: 0px;height: 40px; border:2px solid black">
+		<thead>
+			<tr>
+				<th rowspan="2">Trial</th>
+				<th colspan="2">Stand pipe</th>
+				<th rowspan="2">time(s)</th>
+			  </tr>
+			  <tr>
+				<th>h1(cm)</th>
+				<th>h2(cm)</th>
+			
+			  </tr>
+		</thead>
+	</table>
+	<table class="table101" style="position:absolute; visibility: hidden;font-size:12px; text-align:center;padding: 2px;     width: 277px;
+    top: 88px;
+    left: 0px;height: 40px; border:2px solid black">
+		<thead>
+			<tr>
+				<th rowspan="2">Trial</th>
+				<th colspan="2">Stand pipe</th>
+				<th rowspan="2">time(s)</th>
+			  </tr>
+			  <tr>
+				<th>h1(cm)</th>
+				<th>h2(cm)</th>
+			
+			  </tr>
+		</thead>
+	</table>
+</div>
+
+<div class="simsubscreen canvas12 hidden">
+	<h3>Calculations: </h3>
+	<p id="form" style="position:absolute; left:4px; top:185px; visibility:hidden">
+		<span id="tooltip" style=" left: 202px; top:3px;padding:3px; color:black;font-size: 18px; width:96px;height: 20px;">
+		<span class="tooltiptext"  id="ttp1" style="position: absolute;    width: 164px;
+		height: 34px;
+		top: -53px;
+		left: 48px; padding: 6px; visibility: hidden;">
+		<span class="frac1" ><sup> K = <span class="frac"><sup>2.303 * a * L</sup><span>&frasl;</span><sub>A*t </sub></span>log(<span class="frac"><sup>h1</sup><span>&frasl;</span><sub>h2 </sub></span>)</span></span></span></p>
+	<table class="table11-2" id="table11-2"style="visibility: hidden;">
+		<thead>
+			<tr>
+				<th rowspan="2">Trial</th>
+				<th colspan="2">Stand pipe</th>
+				<th rowspan="2">time</th>
+				<th rowspan="2" onmouseover="showTooltip1()" onmouseout="hideTooltip1()">Coefficient of permeability, K*10<sup>-3</sup> (cm/sec)</th>
+				<th rowspan="2">Kavg*10<sup>-3</sup> (cm/sec)</th>
+			  </tr>
+			  <tr>
+				<th>h1(cm)</th>
+				<th>h2(cm)</th>
+			
+			  </tr>
+              <tr>
+              <td rowspan="3">T1</td>
+                <td>100</td>
+                  <td>90</td>
+                    <td>12</td>
+					<td><input type="text" class="values" id="gi-1"style="font-weight: bold; text-align: center;"></input></td>
+					<td rowspan="3"><input type="text" class="values" id="gi-2"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+              </tr>
+              <tr>
+            
+                <td>90</td>
+                  <td>80</td>
+                    <td>13</td>
+					<td><input type="text" class="values" id="gi-3"style="font-weight: bold; text-align: center;"></input></td>
+					
+              </tr>
+              <tr>
+            
+                <td>80</td>
+                  <td>70</td>
+                    <td>15</td>
+					<td><input type="text" class="values" id="gi-5"style="font-weight: bold; text-align: center;"></input></td>
+					
+              </tr>
+               <tr>
+              <td rowspan="3">T2</td>
+                <td>100</td>
+                  <td>85</td>
+                    <td>18</td>
+                    <td><input type="text" class="values" id="gi-7"style="font-weight: bold; text-align: center;"></input></td>
+                        <td rowspan="3"><input type="text" class="values" id="gi-8"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+              </tr>
+               <tr>
+            
+                <td>85</td>
+                  <td>70</td>
+                    <td>21</td>
+					<td><input type="text" class="values" id="gi-9"style="font-weight: bold; text-align: center;"></input></td>
+					
+              </tr>
+              <tr>
+            
+                <td>70</td>
+                  <td>55</td>
+                    <td>26</td>
+					<td><input type="text" class="values" id="gi-11"style="font-weight: bold; text-align: center;"></input></td>
+				
+              </tr>
+                <td rowspan="3">T3</td>
+                <td>100</td>
+                  <td>80</td>
+                    <td>24</td>
+					<td><input type="text" class="values" id="gi-13"style="font-weight: bold; text-align: center;"></input></td>
+					<td rowspan="3"><input type="text" class="values" id="gi-14"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+              </tr>
+               <tr>
+            
+                <td>80</td>
+                  <td>60</td>
+                    <td>32</td>
+					<td><input type="text" class="values" id="gi-15"style="font-weight: bold; text-align: center;"></input></td>
+					
+              </tr>
+              <tr>
+            
+                <td>60</td>
+                  <td>40</td>
+                    <td>45</td>
+					<td><input type="text" class="values" id="gi-17"style="font-weight: bold; text-align: center;"></input></td>
+				
+              </tr>
+		</thead>
+	</table><br>
+	<button id="btn1" style="position: absolute;    left: 445px;
+    top: 424px; visibility: hidden;" onclick="checkInput1()">CHECK</button>
+        <button id="resbtn1" style="position: absolute;     left: 445px;
+		top: 424px;  visibility:hidden;" onclick="getResult1()">RESULT</button>
+        <span id="alerttxt" class="alertmsg" style="position:absolute; left: 307px;
+        top: 496px;
+        color: red; visibility: hidden;">Please Enter Value to proceed</span>
+<button id="btn11" style="position: absolute;    left: 445px;
+top: 424px; visibility: hidden;" onclick="checkInput11()">CHECK</button>
+	<button id="resbtn11" style="position: absolute;     left: 445px;
+	top: 424px;  visibility:hidden;" onclick="getResult11()">RESULT</button>
+	<span id="alerttxt11" class="alertmsg" style="position:absolute; left: 307px;
+	top: 496px;
+	color: red; visibility: hidden;">Please Enter Value to proceed</span>
+
+
+
+<table class="table11-1" id="table11-1" style="visibility: hidden;">
+	<thead>
+		<tr>
+			<th rowspan="2">Trial</th>
+			<th colspan="2">Stand pipe</th>
+			<th rowspan="2">time</th>
+			<th rowspan="2" onmouseover="showTooltip1()" onmouseout="hideTooltip1()">Coefficient of permeability,K*10<sup>-4</sup> (cm/sec)</th>
+			<th rowspan="2" id="kavg" >Kavg*10<sup>-4</sup> (cm/sec)</th>
+		  </tr>
+		  <tr>
+			<th>h1(cm)</th>
+			<th>h2(cm)</th>
+		
+		  </tr>
+		  <tr>
+		  <td rowspan="3">T1</td>
+			<td>100</td>
+			  <td>90</td>
+				<td>24</td>
+				<td><input type="text" class="values" id="hi-1"style="font-weight: bold; text-align: center;"></input></td>
+				<td rowspan="3"><input type="text" class="values" id="hi-2"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+		  </tr>
+		  <tr>
+		
+			<td>90</td>
+			  <td>80</td>
+				<td>27</td>
+				<td><input type="text" class="values" id="hi-3"style="font-weight: bold; text-align: center;"></input></td>
+				
+		  </tr>
+		  <tr>
+		
+			<td>80</td>
+			  <td>70</td>
+				<td>30</td>
+				<td><input type="text" class="values" id="hi-5"style="font-weight: bold; text-align: center;"></input></td>
+				
+		  </tr>
+		   <tr>
+		  <td rowspan="3">T2</td>
+			<td>100</td>
+			  <td>85</td>
+				<td>37</td>
+				<td><input type="text" class="values" id="hi-7"style="font-weight: bold; text-align: center;"></input></td>
+					<td rowspan="3"><input type="text" class="values" id="hi-8"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+		  </tr>
+		   <tr>
+		
+			<td>85</td>
+			  <td>70</td>
+				<td>44</td>
+				<td><input type="text" class="values" id="hi-9"style="font-weight: bold; text-align: center;"></input></td>
+				
+		  </tr>
+		  <tr>
+		
+			<td>70</td>
+			  <td>55</td>
+				<td>55</td>
+				<td><input type="text" class="values" id="hi-11"style="font-weight: bold; text-align: center;"></input></td>
+			
+		  </tr>
+			<td rowspan="3">T3</td>
+			<td>100</td>
+			  <td>80</td>
+				<td>51</td>
+				<td><input type="text" class="values" id="hi-13"style="font-weight: bold; text-align: center;"></input></td>
+				<td rowspan="3"><input type="text" class="values" id="hi-14"style="visibility: hidden;font-weight: bold; text-align: center;"></input></td>
+		  </tr>
+		   <tr>
+		
+			<td>80</td>
+			  <td>60</td>
+				<td>66</td>
+				<td><input type="text" class="values" id="hi-15"style="font-weight: bold; text-align: center;"></input></td>
+				
+		  </tr>
+		  <tr>
+		
+			<td>60</td>
+			  <td>40</td>
+				<td>94</td>
+				<td><input type="text" class="values" id="hi-17"style="font-weight: bold; text-align: center;"></input></td>
+			
+		  </tr>
+	</thead>
+</table><br>
+<button id="btn2" style="position: absolute;    left: 445px;
+top: 424px; visibility: hidden;" onclick="checkInput2()">CHECK</button>
+	<button id="resbtn2" style="position: absolute;     left: 445px;
+	top: 424px;  visibility:hidden;" onclick="getResult2()">RESULT</button>
+	<span id="alerttxt2" class="alertmsg" style="position:absolute; left: 307px;
+	top: 496px;
+	color: red; visibility: hidden;">Please Enter Value to proceed</span>
+
+
+<button id="btn22" style="position: absolute;    left: 445px;
+top: 424px; visibility: hidden;" onclick="checkInput22()">CHECK</button>
+	<button id="resbtn22" style="position: absolute;     left: 445px;
+	top: 424px;  visibility:hidden;" onclick="getResult22()">RESULT</button>
+	<span id="alerttxt22" class="alertmsg" style="position:absolute; left: 307px;
+	top: 496px;
+	color: red; visibility: hidden;">Please Enter Value to proceed</span>
+	<!-- <p class="const">Constant head, h = 67.5cm</p> -->
+	<!-- <div class="calculation"></br>
+		<h3>Calculations: </h3>
+		<table class="table11-2">
+			<tr class="avg-tab">
+				<td>Average of volume of water, Q =</td>
+				<td><input class="avg" /></td>
+				<td>cm<sup>3</sup></td>
+				<td><span class="mark3"></span></td>
+				<td><button class="btn check3" >Check</button></td>
+				<td><button class="btn result3">Result</button></td>
+			</tr>
+			<tr class="coefficient-tab">
+				<td>Coefficient of permeability of <br>given soil sample, (K<sub>t</sub>) = <span class="frac"><sup>Q &times; L</sup><span>&frasl;</span><sub>A &times; t &times; h</sub></span> =</td>
+				<td><input class="coeff" /></td>
+				<td>&times; 10<sup>-4</sup>cm/s</td>
+				<td><span class="mark4"></span></td>
+				<td><button class="btn check4" >Check</button></td>
+				<td><button class="btn result4">Result</button></td>
+			</tr>
+		</table>
+	</div> -->
+	<div class="inference">
+		<h3>Inference:</h3>
+		<p>As the value of coefficient of permeability is 3.64x10<sup>-3</sup> (cm/sec). The value lies between 10<sup>-3</sup> to 10<sup>-4</sup> the soil can be classified as silty sand.</p>
+	</div>
+	<div class="inference1">
+		<h3>Inference:</h3>
+		<p>As the value of coefficient of permeability is 4.40x10<sup>-4</sup> (cm/sec). The value lies between 10<sup>-3</sup> to 10<sup>-4</sup> the soil can be classified as silty sand.</p>
+	</div>
+</div>
+
+<div class="note">
+	<p class="note-text"></p>
+	<button class="note-btn">OK</button>
+</div>
+	<span class="tooltip variables hidden">
+		<strong class="variables-heading">Variables used in calculation</strong>
+		<span class="variables-description"></span>
+	</span>
+
+	<div class="formativeQuestDiv">
+		<p class="q"></p>
+		<select class="answer"></select>
+		<p class="a"></p>
+	</div>
+
+	<div id="nav">
+		<img class="nextButton" onclick="navNext()" title="Next Button" src="images/Next.png" />
+	</div>
+
+	<img id="arrow1" src="images/arrow1.png"/>
+	<img class ="" id="arrow2" style="visibility:hidden;" src="images/arrow1.png"/>
+	<div class="copyright"> &copy; 2020 - <script>document.write(new Date().getFullYear())</script>
+	SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+</div>
+
+<script defer language="JavaScript" type="text/javascript" src="js/jquerymin.js"></script>
+<script defer type="text/javascript" src="js/const.js"></script>
+<script>const tableData = document.getElementById("table10");</script>
 </body>
 </html>
